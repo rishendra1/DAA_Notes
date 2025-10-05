@@ -1,0 +1,26 @@
+Asymptotic Notation :-
+Asymptotic Notataion means approaching a value or a curve arbitarily closely. If we take, " f(n) = n^2 + 3n ", when n is large
+then 3n <<<<<<< n^2, from this we can say f(n) is equivalent to n^2 => f(n) ~ n*n.
+
+Worst Case :- Longest running case for any time of input of size n
+
+Time complexity Order - 
+
+O(1) > O(logn) > O(n) > O(nlogn) > O(n*n) > O(c^n) > O(n^n)
+
+1. Big - O - A kind of upper bound
+Big O notation describes an algorithm's efficiency and performance as the input size grows by providing an upper bound on its 
+worst-case time complexity.
+  f(n) = O(g(n))
+  from this we write:
+    f(n) <= c * g(n)
+    where c is a constant and c > 0
+    let us take 'm' as the point after which the above inequality holds true.
+2. Big Ω Notation - A kind of lower bound
+It describes the asymptotic lower bound of a function, such as an algorithm's running time, meaning it provides a minimum performance 
+guarantee for sufficiently large inputs.
+Ω(g(n)) = {f(n) : there exists +ve constant c, 'm' such that 0 <= c * g(m) <= f(m) , for all n >= m}
+3. Big Θ Notation -
+It provides an asymptotically tight bound for a function, meaning it specifies both a lower and an upper bound for the 
+growth rate of a function.
+Θ(g(n)) = {f(n): there exist +ve constants c1,c2 and 'm' such that 0 <= c1 * g(m) <= f(m) <= c2*g(m) , for all , n >= m}
