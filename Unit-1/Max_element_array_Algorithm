@@ -1,0 +1,9 @@
+1. Algorithm MAX(A, n)
+2. // Here 'A' is an array consisting 'n' elements
+3. {
+4. Result := A[1];
+4. for i = 2 to n do,
+6.   if Result < A[i] then,
+7.     Result := A[i];
+8. return Result;
+9. }
