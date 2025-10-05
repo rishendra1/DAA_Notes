@@ -1,0 +1,13 @@
+Time Complexity:-
+  1. Counts no. of Operations
+  2. Time Required by Algorithm to execute
+Big O - Notation:-
+Examples:-
+  1. O(1) - Push, pop, Enqueue, Dequeue
+  2. O(log(n)) - Binary Search
+  3. O(n) - Linear Search
+  4. O(n.log(n)) - Quick Sort, Merge Sort
+  5. O(n*n) - Bubble, Insertion, Selection Sorts
+  6. O(n*n*n) - Matrix Multiplication
+Space Complexity:-
+  Amount of memory that an Algorithm needs to run
