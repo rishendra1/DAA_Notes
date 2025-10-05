@@ -1,0 +1,20 @@
+1. Algorithm Euclid(m,n)
+2. {
+3.   while m does not divide n do,
+4.       r = n % m
+5.       n = m
+6.       m = r
+7.   return m
+8. }
+
+For example, we take m = 36 and n = 48,
+Euclid(36, 48)
+  r = 48 % 36 = 12
+  n = 36            ------------> First step
+  m = 12
+  r = 36 % 12
+  n = 12            -------------> Second step
+  m = 0
+  r = 12 % 0
+  n = 0             -------------> Third Step
+  m = 12
