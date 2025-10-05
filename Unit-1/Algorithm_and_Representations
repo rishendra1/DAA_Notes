@@ -1,0 +1,12 @@
+Algorithm :- An algorithm is a finite, step-by-step set of instructions for solving a problem or completing a task, converting input data into a desired output. It's a 
+              procedure that defines what to do and how to do it, functioning like a recipe for a computer or a manual for a person.
+Representation of Algorithm :-
+1. Step - by - Step instruction
+2. Flow chart
+3. Pseudocode
+4. UML,FSL Diagram
+Flow chart :-
+a.) oval - start, end
+b.) Paralellogram - Inputs , Outputs
+c.) Rectangle - Operations
+d.) Rhombus - Conditions
