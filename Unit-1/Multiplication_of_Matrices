@@ -1,0 +1,9 @@
+Algorithm
+for i = 0 to m - 1 do,
+    for j = 0 to p - 1 do,
+        C[i,j] := 0
+        for k = 0 to n - 1 do,
+            C[i,j] := C[i,j] + A[i,k] * B[k,j]
+        end
+    end
+  end
