@@ -1,0 +1,19 @@
+1. Algorithm Factorial(n)
+2. // 'n' is the number that we need to find the factorial
+3. {
+4. if n = 0 then,  return 1;
+5. else if n = 1 then,  return 1;
+6. else if n > 1 then, return (n * Factorial(n - 1));
+7. }
+
+For example, we need to find the factorial of "5"
+fact(5)
+= 5 * fact(4)
+= 5 * (4 * fact(3))
+= 5 * (4 * (3 * fact(2)))
+= 5 * (4 * (3 * (2 * fact(1))))
+= 5 * (4 * (3 * (2 * 1)))
+= 5 * (4 * (3 * 2))
+= 5 * (4 * 6)
+= 5 * 24
+= 120
