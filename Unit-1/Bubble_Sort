@@ -1,0 +1,10 @@
+Algorithm :-
+1. BubbleSort(Array A[])
+2. begin
+3. for i = 1 to n - 1 do,
+4.     for j = 1 to n - i do,
+5.         if A[j] > A[j + 1] then,
+6.           swap(A[j],A[j + 1])
+7. end
+
+Time Complexity is O(n*n)
