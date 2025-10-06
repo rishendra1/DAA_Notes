@@ -1,0 +1,17 @@
+1. Linear Search is the simplest searching algorithm.
+2. It traverses the array sequentially to locate the required element.
+3. Time Complexity - O(n)
+Algorithm :-
+
+1.LinearSearch(A,Key)
+2. {
+3. i := 1
+4. while i <= n and A[i] != Key do,
+5.   do i++
+6. if i <= n,    return True
+7. else          return False
+8. }
+
+Best - case Time Complexity :- O(1) --> If the key value or the target value is at the first position.
+Worst - case Time Complexity :- O(n) --> If the key value is at the last position of the array (or) the key value 
+      is not present in the array.
