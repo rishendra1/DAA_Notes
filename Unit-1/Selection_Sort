@@ -1,0 +1,20 @@
+Selection Sort Algorithm :-
+
+1. In selection sort, we find minimum, second minimum, third minimum and so on and arrange
+them in increasing order.
+2. Like bubble sort, irrespective of the input, during ith stage this algorithm incurs (n − i)
+comparisons.
+3. Time complexity - O(n*n)
+
+Algorithm :
+
+1. Algorithm Selection_Sort(A,n)
+2. {
+3.   for j = 1 to n - 1 do,
+4.       min := j
+5.       for i = j + 1 to n do,
+6.           if a[i] < a[min] ,
+7.               min = i 
+8.        swap(a[j],a[min])
+9. end
+10.}
