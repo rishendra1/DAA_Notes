@@ -1,0 +1,15 @@
+Masters Theorm :-
+
+1. Masters theorm is used to find time complexities of a given program or block of code.
+2. There are two different cases in Master Theorm :
+            a.) Decreasing Functions
+            b.) Dividing Functions
+Now, we are going to discuss about the Masters theorm for decreasing functions
+i.) General form for decreasing functions is,
+        T(n) = a. T(n - b) + f(n)
+        where, 'a' and 'b' are constants
+        where 'f(n)' is the work done outside the function call
+there are three cases here,
+  a. if a < 1, then T(n) = O(n^k)
+  b. if a = 1, then T(n) = O(n*n^(k))
+  c. if a > 1, then T(n) = O(a^(n/b) * n^k)
