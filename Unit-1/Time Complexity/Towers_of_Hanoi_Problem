@@ -1,0 +1,19 @@
+Algorithm :-
+
+Algorithm TowersOfHanoi(n, A, B, C)
+if n>0
+    TowersOfHanoi(n-1,A,C,B)
+    Move disk from A to C
+    TowersOfHanoi(n- 1,B,A,C)
+---------------------------------------------------------------
+From this,
+  ToH(n-1,A,B,c)        --> n - 1
+  Move disk from A to C --> 1
+  ToH(n - 1,B,A,C)      --> n - 1
+  => T(n) = 2.T(n - 1) + 1
+on comparing it with the general form of decreasing function,
+a = 2, b = 1 and f(n) = 1, --> n^k = 1 --> k = 0
+as 2 > 1, so => O(a^(n/b) * n^k)
+             => O(2^n * n^0)
+             => O(2^n)
+Therefore, the time complexity of Towers of Hanoi is O(2^n)
