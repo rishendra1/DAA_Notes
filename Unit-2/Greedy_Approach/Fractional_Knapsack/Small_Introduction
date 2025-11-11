@@ -1,4 +1,0 @@
-1. Problem Statement: You are given with ‘n’ objects with their weights and profit. You
-    are also given a bag or knapsack of certain size.
-2. Our main aim is to fill the knapsack to obtain the maximum profit.
-3. There are three methods to fill the items inorder to obtain maximum profit
