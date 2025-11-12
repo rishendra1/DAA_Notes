@@ -1,0 +1,6 @@
+1. Dijkstra’s Algorithm is a shortest path algorithm used to find the minimum distance from a
+  starting vertex (source) to all other vertices in a weighted graph, where all edge weights are non-negative.
+2. Works on weighted graphs (edges have costs/distances).
+3. Only valid for non-negative edge weights.
+4. Condition - if d[u]+w(u,v)<d[v] then,
+                          d[v]=d[u]+w(u,v)
