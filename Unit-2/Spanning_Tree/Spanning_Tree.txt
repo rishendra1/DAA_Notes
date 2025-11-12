@@ -1,2 +1,0 @@
-1. A graph can be represented as the set of vertices and set of edges.
-2. Spanning Tree - It is a sub - graph with no cycles of graph.
