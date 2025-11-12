@@ -1,0 +1,6 @@
+1. It is used when the solution can be recursively described in terms of solutions to subproblems
+(optimal substructure).
+2. Algorithm finds solutions to subproblems and stores them in memory for later use.
+3. It is more efficient than “brute-force methods”, which solve the same subproblems over and over again.
+4. Mainly provides optimal solution
+5. Dynamic Programming works on Principle of Optimality
