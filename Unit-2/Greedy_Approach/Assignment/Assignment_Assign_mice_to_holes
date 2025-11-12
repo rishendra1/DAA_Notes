@@ -1,0 +1,17 @@
+1. In this case, positions of mice - initially be taken as array - mice[]
+  Example :- mice[] = {4, -3, 1}
+2. Here, one mouse is at position "4", another at "-3" and another at "1" --> coordinates
+3. Now we will take the the holes - destination as array - holes[]
+  Example :- holes[] = {4,0,5}
+4. Now we have to push each mouse into the hole such that time taken should be less, imagine if all mice cover 1 unit
+  in one minute.
+5. To get smallest possible time, we have to sort the arrays - mice[], holes[]
+  => mice[] = {-3, 1, 4}
+  => holes[] = {0, 4, 5}
+6. Now start assign the mice to corresponding hole.
+mice[]        hole[]      time[as mouse covers 1 unit in a minute, we consider |time| = |distance|]
+-3            0             3
+1             4             3
+4             5             1
+             maximum time = 3
+There least possible time is '3'
