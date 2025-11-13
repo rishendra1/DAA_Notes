@@ -1,0 +1,10 @@
+1. The 0/1 Knapsack problem aims to select items with given weights and profits to maximize total profit
+  without exceeding the capacity (W) of the knapsack.
+2. Each item can be taken either 0 or 1 time, not fractionally.
+3. DP is used because the problem shows overlapping subproblems.
+4. Condition:
+  For each item i:
+    If weight of item ≤ current capacity
+        dp[i][w] = max( profit[i] + dp[i-1][w - weight[i]], dp[i-1][w] )
+    Else (item too heavy):
+        dp[i][w] = dp[i-1][w]
