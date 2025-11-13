@@ -1,0 +1,5 @@
+1. The All-Pairs Shortest Path problem aims to find the shortest distances between every pair of vertices in a 
+weighted graph - directed or undirected.
+2. This means computing the shortest path from every node to every other node.
+3. Floyd–Warshall Algorithm (Dynamic Programming)
+4. formula - dist[i][j] = min( dist[i][j], dist[i][k] + dist[k][j] )
