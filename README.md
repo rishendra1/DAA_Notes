@@ -2,11 +2,11 @@
 
 Comprehensive notes covering fundamental concepts and algorithms in Design and Analysis of Algorithms, created for academic learning and reference.
 
-## 📚 Repository Overview
+## Repository Overview
 
 This repository contains well-organized notes on Design and Analysis of Algorithms (DAA), compiled from various academic materials, textbooks, and resources. The content is structured into two main units covering essential algorithmic concepts.
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 DAA_Notes/
