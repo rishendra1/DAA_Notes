@@ -216,12 +216,3 @@ BFS(start_vertex):
 ✓ Memory intensive for wide graphs
 ✓ Complete algorithm - always finds a solution if it exists
 
----
-
-## Practice Problems:
-
-1. Implement BFS for a graph with n vertices
-2. Find shortest path between two nodes
-3. Count number of islands in a 2D grid
-4. Check if a graph is bipartite
-5. Find level of each node in a tree
