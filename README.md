@@ -32,39 +32,12 @@ DAA_Notes/
 - **Dynamic Programming**: Optimal substructure, memoization, and classic DP problems
 - **Greedy Approach**: Greedy algorithms, optimization problems, and applications
 
-## 🎯 Purpose
-
-These notes are designed to:
-- Provide clear explanations of algorithmic concepts
-- Serve as a quick reference for students studying DAA
-- Offer C++ implementations of various algorithms
-- Help understand time and space complexity analysis
-
-## 🔧 Technologies
-
-- **Language**: C++
-- **Focus**: Algorithm design, analysis, and implementation
-
-## 📝 Note
+## Notes
 
 This material has been compiled from various academic sources, textbooks, and AI-assisted research to create comprehensive and efficient study notes. The content is intended for educational purposes.
 
-## 🤝 Contributing
+## Star This Repository
 
-Feel free to:
-- Report issues or errors
-- Suggest improvements
-- Add more examples or explanations
-- Submit pull requests with corrections
+If you find these notes helpful and clear, please consider giving this repository a star!
 
-## 📧 Contact
 
-For questions or suggestions regarding these notes, please open an issue in this repository.
-
-## ⭐ Star This Repository
-
-If you find these notes helpful, please consider giving this repository a star!
-
----
-
-**Happy Learning! 📚✨**
